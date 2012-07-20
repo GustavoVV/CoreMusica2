@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE73C2415B94BE800A47041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE73C2315B94BE800A47041 /* UIKit.framework */; };
+		2EE73C2615B94BE800A47041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE73C2515B94BE800A47041 /* Foundation.framework */; };
+		2EE73C2815B94BE800A47041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE73C2715B94BE800A47041 /* CoreGraphics.framework */; };
+		2EE73C2A15B94BE800A47041 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE73C2915B94BE800A47041 /* CoreData.framework */; };
+		2EE73C3015B94BE800A47041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EE73C2E15B94BE800A47041 /* InfoPlist.strings */; };
+		2EE73C3215B94BE800A47041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C3115B94BE800A47041 /* main.m */; };
+		2EE73C3615B94BE800A47041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C3515B94BE800A47041 /* AppDelegate.m */; };
+		2EE73C3915B94BE800A47041 /* CoreMusica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C3715B94BE800A47041 /* CoreMusica.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EE73C1F15B94BE800A47041 /* CoreMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE73C2315B94BE800A47041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2EE73C2515B94BE800A47041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EE73C2715B94BE800A47041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2EE73C2915B94BE800A47041 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2EE73C2D15B94BE800A47041 /* CoreMusica-Info.plist */ = {isa = PBXFileReference; path = "CoreMusica-Info.plist"; sourceTree = "<group>"; };
+		2EE73C2F15B94BE800A47041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EE73C3115B94BE800A47041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE73C3315B94BE800A47041 /* CoreMusica-Prefix.pch */ = {isa = PBXFileReference; path = "CoreMusica-Prefix.pch"; sourceTree = "<group>"; };
+		2EE73C3415B94BE800A47041 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE73C3515B94BE800A47041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE73C3815B94BE800A47041 /* CoreMusica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreMusica.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE73C1C15B94BE800A47041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE73C2415B94BE800A47041 /* UIKit.framework in Frameworks */,
+				2EE73C2615B94BE800A47041 /* Foundation.framework in Frameworks */,
+				2EE73C2815B94BE800A47041 /* CoreGraphics.framework in Frameworks */,
+				2EE73C2A15B94BE800A47041 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE73C1415B94BE700A47041 = {
+			isa = PBXGroup;
+			children = (
+				2EE73C2B15B94BE800A47041 /* CoreMusica */,
+				2EE73C2215B94BE800A47041 /* Frameworks */,
+				2EE73C2015B94BE800A47041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE73C2015B94BE800A47041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE73C1F15B94BE800A47041 /* CoreMusica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE73C2215B94BE800A47041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE73C2315B94BE800A47041 /* UIKit.framework */,
+				2EE73C2515B94BE800A47041 /* Foundation.framework */,
+				2EE73C2715B94BE800A47041 /* CoreGraphics.framework */,
+				2EE73C2915B94BE800A47041 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EE73C2B15B94BE800A47041 /* CoreMusica */ = {
+			isa = PBXGroup;
+			children = (
+				2EE73C3415B94BE800A47041 /* AppDelegate.h */,
+				2EE73C3515B94BE800A47041 /* AppDelegate.m */,
+				2EE73C3715B94BE800A47041 /* CoreMusica.xcdatamodeld */,
+				2EE73C2C15B94BE800A47041 /* Supporting Files */,
+			);
+			path = CoreMusica;
+			sourceTree = "<group>";
+		};
+		2EE73C2C15B94BE800A47041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE73C2D15B94BE800A47041 /* CoreMusica-Info.plist */,
+				2EE73C2E15B94BE800A47041 /* InfoPlist.strings */,
+				2EE73C3115B94BE800A47041 /* main.m */,
+				2EE73C3315B94BE800A47041 /* CoreMusica-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE73C1E15B94BE800A47041 /* CoreMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE73C3C15B94BE800A47041 /* Build configuration list for PBXNativeTarget "CoreMusica" */;
+			buildPhases = (
+				2EE73C1B15B94BE800A47041 /* Sources */,
+				2EE73C1C15B94BE800A47041 /* Frameworks */,
+				2EE73C1D15B94BE800A47041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMusica;
+			productName = CoreMusica;
+			productReference = 2EE73C1F15B94BE800A47041 /* CoreMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE73C1615B94BE700A47041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2EE73C1915B94BE700A47041 /* Build configuration list for PBXProject "CoreMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EE73C1415B94BE700A47041;
+			productRefGroup = 2EE73C2015B94BE800A47041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE73C1E15B94BE800A47041 /* CoreMusica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE73C1D15B94BE800A47041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE73C3015B94BE800A47041 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE73C1B15B94BE800A47041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE73C3215B94BE800A47041 /* main.m in Sources */,
+				2EE73C3615B94BE800A47041 /* AppDelegate.m in Sources */,
+				2EE73C3915B94BE800A47041 /* CoreMusica.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EE73C2E15B94BE800A47041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE73C2F15B94BE800A47041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE73C3A15B94BE800A47041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EE73C3B15B94BE800A47041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE73C3D15B94BE800A47041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreMusica/CoreMusica-Prefix.pch";
+				INFOPLIST_FILE = "CoreMusica/CoreMusica-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2EE73C3E15B94BE800A47041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreMusica/CoreMusica-Prefix.pch";
+				INFOPLIST_FILE = "CoreMusica/CoreMusica-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE73C1915B94BE700A47041 /* Build configuration list for PBXProject "CoreMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE73C3A15B94BE800A47041 /* Debug */,
+				2EE73C3B15B94BE800A47041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE73C3C15B94BE800A47041 /* Build configuration list for PBXNativeTarget "CoreMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE73C3D15B94BE800A47041 /* Debug */,
+				2EE73C3E15B94BE800A47041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2EE73C3715B94BE800A47041 /* CoreMusica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2EE73C3815B94BE800A47041 /* CoreMusica.xcdatamodel */,
+			);
+			currentVersion = 2EE73C3815B94BE800A47041 /* CoreMusica.xcdatamodel */;
+			path = CoreMusica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2EE73C1615B94BE700A47041 /* Project object */;
+}

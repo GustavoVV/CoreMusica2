@@ -15,6 +15,17 @@
 		2EE73C3215B94BE800A47041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C3115B94BE800A47041 /* main.m */; };
 		2EE73C3615B94BE800A47041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C3515B94BE800A47041 /* AppDelegate.m */; };
 		2EE73C3915B94BE800A47041 /* CoreMusica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C3715B94BE800A47041 /* CoreMusica.xcdatamodeld */; };
+		2EE73C4015B94C2D00A47041 /* safe_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE73C3F15B94C2D00A47041 /* safe_image.png */; };
+		2EE73C4215B9541700A47041 /* CoreMusicaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE73C4115B9541700A47041 /* CoreMusicaStoryboard.storyboard */; };
+		2EE73C4515B9572400A47041 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C4415B9572400A47041 /* TeacherViewController.m */; };
+		2EE73C4815B9578E00A47041 /* TeacherDetaillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C4715B9578E00A47041 /* TeacherDetaillViewController.m */; };
+		2EE73C4B15B9582800A47041 /* AlumnosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C4A15B9582800A47041 /* AlumnosViewController.m */; };
+		2EE73C4E15B9583B00A47041 /* InstrumentosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C4D15B9583B00A47041 /* InstrumentosViewController.m */; };
+		2EE73C5115B9585800A47041 /* AlumnosDetaillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C5015B9585800A47041 /* AlumnosDetaillViewController.m */; };
+		2EE73C5415B9586E00A47041 /* InstrumentosDetaillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C5315B9586E00A47041 /* InstrumentosDetaillViewController.m */; };
+		2EE73C5715B9599100A47041 /* Instrument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C5615B9599100A47041 /* Instrument.m */; };
+		2EE73C5A15B9599100A47041 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C5915B9599100A47041 /* Teacher.m */; };
+		2EE73C5D15B9599100A47041 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE73C5C15B9599100A47041 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +34,35 @@
 		2EE73C2515B94BE800A47041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2EE73C2715B94BE800A47041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2EE73C2915B94BE800A47041 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		2EE73C2D15B94BE800A47041 /* CoreMusica-Info.plist */ = {isa = PBXFileReference; path = "CoreMusica-Info.plist"; sourceTree = "<group>"; };
+		2EE73C2D15B94BE800A47041 /* CoreMusica-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreMusica-Info.plist"; sourceTree = "<group>"; };
 		2EE73C2F15B94BE800A47041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EE73C3115B94BE800A47041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2EE73C3315B94BE800A47041 /* CoreMusica-Prefix.pch */ = {isa = PBXFileReference; path = "CoreMusica-Prefix.pch"; sourceTree = "<group>"; };
-		2EE73C3415B94BE800A47041 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE73C3315B94BE800A47041 /* CoreMusica-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreMusica-Prefix.pch"; sourceTree = "<group>"; };
+		2EE73C3415B94BE800A47041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2EE73C3515B94BE800A47041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2EE73C3815B94BE800A47041 /* CoreMusica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreMusica.xcdatamodel; sourceTree = "<group>"; };
+		2EE73C3F15B94C2D00A47041 /* safe_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safe_image.png; sourceTree = "<group>"; };
+		2EE73C4115B9541700A47041 /* CoreMusicaStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CoreMusicaStoryboard.storyboard; sourceTree = "<group>"; };
+		2EE73C4315B9572400A47041 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		2EE73C4415B9572400A47041 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		2EE73C4615B9578E00A47041 /* TeacherDetaillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherDetaillViewController.h; sourceTree = "<group>"; };
+		2EE73C4715B9578E00A47041 /* TeacherDetaillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherDetaillViewController.m; sourceTree = "<group>"; };
+		2EE73C4915B9582800A47041 /* AlumnosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlumnosViewController.h; sourceTree = "<group>"; };
+		2EE73C4A15B9582800A47041 /* AlumnosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlumnosViewController.m; sourceTree = "<group>"; };
+		2EE73C4C15B9583B00A47041 /* InstrumentosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentosViewController.h; sourceTree = "<group>"; };
+		2EE73C4D15B9583B00A47041 /* InstrumentosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentosViewController.m; sourceTree = "<group>"; };
+		2EE73C4F15B9585800A47041 /* AlumnosDetaillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlumnosDetaillViewController.h; sourceTree = "<group>"; };
+		2EE73C5015B9585800A47041 /* AlumnosDetaillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlumnosDetaillViewController.m; sourceTree = "<group>"; };
+		2EE73C5215B9586E00A47041 /* InstrumentosDetaillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstrumentosDetaillViewController.h; sourceTree = "<group>"; };
+		2EE73C5315B9586E00A47041 /* InstrumentosDetaillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstrumentosDetaillViewController.m; sourceTree = "<group>"; };
+		2EE73C5515B9599100A47041 /* Instrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instrument.h; sourceTree = "<group>"; };
+		2EE73C5615B9599100A47041 /* Instrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instrument.m; sourceTree = "<group>"; };
+		2EE73C5815B9599100A47041 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2EE73C5915B9599100A47041 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		2EE73C5B15B9599100A47041 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2EE73C5C15B9599100A47041 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2EE73C6615B9709000A47041 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		2EE73C6715B9709000A47041 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +111,31 @@
 		2EE73C2B15B94BE800A47041 /* CoreMusica */ = {
 			isa = PBXGroup;
 			children = (
+				2EE73C3F15B94C2D00A47041 /* safe_image.png */,
+				2EE73C6615B9709000A47041 /* MainTableViewController.h */,
+				2EE73C6715B9709000A47041 /* MainTableViewController.m */,
 				2EE73C3415B94BE800A47041 /* AppDelegate.h */,
 				2EE73C3515B94BE800A47041 /* AppDelegate.m */,
+				2EE73C4115B9541700A47041 /* CoreMusicaStoryboard.storyboard */,
 				2EE73C3715B94BE800A47041 /* CoreMusica.xcdatamodeld */,
+				2EE73C5B15B9599100A47041 /* Student.h */,
+				2EE73C5C15B9599100A47041 /* Student.m */,
+				2EE73C5815B9599100A47041 /* Teacher.h */,
+				2EE73C5915B9599100A47041 /* Teacher.m */,
+				2EE73C5515B9599100A47041 /* Instrument.h */,
+				2EE73C5615B9599100A47041 /* Instrument.m */,
+				2EE73C4315B9572400A47041 /* TeacherViewController.h */,
+				2EE73C4415B9572400A47041 /* TeacherViewController.m */,
+				2EE73C4615B9578E00A47041 /* TeacherDetaillViewController.h */,
+				2EE73C4715B9578E00A47041 /* TeacherDetaillViewController.m */,
+				2EE73C4915B9582800A47041 /* AlumnosViewController.h */,
+				2EE73C4A15B9582800A47041 /* AlumnosViewController.m */,
+				2EE73C4F15B9585800A47041 /* AlumnosDetaillViewController.h */,
+				2EE73C5015B9585800A47041 /* AlumnosDetaillViewController.m */,
+				2EE73C4C15B9583B00A47041 /* InstrumentosViewController.h */,
+				2EE73C4D15B9583B00A47041 /* InstrumentosViewController.m */,
+				2EE73C5215B9586E00A47041 /* InstrumentosDetaillViewController.h */,
+				2EE73C5315B9586E00A47041 /* InstrumentosDetaillViewController.m */,
 				2EE73C2C15B94BE800A47041 /* Supporting Files */,
 			);
 			path = CoreMusica;
@@ -148,6 +203,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EE73C3015B94BE800A47041 /* InfoPlist.strings in Resources */,
+				2EE73C4015B94C2D00A47041 /* safe_image.png in Resources */,
+				2EE73C4215B9541700A47041 /* CoreMusicaStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +218,15 @@
 				2EE73C3215B94BE800A47041 /* main.m in Sources */,
 				2EE73C3615B94BE800A47041 /* AppDelegate.m in Sources */,
 				2EE73C3915B94BE800A47041 /* CoreMusica.xcdatamodeld in Sources */,
+				2EE73C4515B9572400A47041 /* TeacherViewController.m in Sources */,
+				2EE73C4815B9578E00A47041 /* TeacherDetaillViewController.m in Sources */,
+				2EE73C4B15B9582800A47041 /* AlumnosViewController.m in Sources */,
+				2EE73C4E15B9583B00A47041 /* InstrumentosViewController.m in Sources */,
+				2EE73C5115B9585800A47041 /* AlumnosDetaillViewController.m in Sources */,
+				2EE73C5415B9586E00A47041 /* InstrumentosDetaillViewController.m in Sources */,
+				2EE73C5715B9599100A47041 /* Instrument.m in Sources */,
+				2EE73C5A15B9599100A47041 /* Teacher.m in Sources */,
+				2EE73C5D15B9599100A47041 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreMusica/CoreMusica-Prefix.pch";
 				INFOPLIST_FILE = "CoreMusica/CoreMusica-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -240,6 +307,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoreMusica/CoreMusica-Prefix.pch";
 				INFOPLIST_FILE = "CoreMusica/CoreMusica-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +332,7 @@
 				2EE73C3E15B94BE800A47041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

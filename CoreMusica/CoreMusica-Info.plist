@@ -6,8 +6,12 @@
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>safe_image</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>UIMainStoryboardFile</key>
+	<string>CoreMusicaStoryboard</string>
 	<key>CFBundleIdentifier</key>
 	<string>curso.es.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>

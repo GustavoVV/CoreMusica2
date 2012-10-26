@@ -16,6 +16,8 @@
     if (self) {
         // Custom initialization
     }
+    
+    NSLog(@"Fuck you mother fucker");
     return self;
 }
 

@@ -18,10 +18,6 @@
     }
     
     NSLog(@"Fuck you mother fucker");
-    NSLog(@"Fuck you mother fucker!");
-    NSLog(@"Fuck you mother fucker!!");
-    NSLog(@"Fuck you mother fucker!!!");
-    NSLog(@"Fuck you mother fucker!!!!");
     return self;
 }
 

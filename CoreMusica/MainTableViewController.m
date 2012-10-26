@@ -24,6 +24,8 @@
     NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:self.entityDescription.name];
     NSString *cacheName = [self.entityDescription.name stringByAppendingString:@"Cache"];
     
+    NSLog(@"Mother Fuc**r");
+    
     NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
     [fetchRequest setSortDescriptors:[NSArray arrayWithObject:sortDescriptor]];
     

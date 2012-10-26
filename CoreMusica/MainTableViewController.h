@@ -1,7 +1,6 @@
 //
 //  MainTableViewController.h
-//  MusicSchool
-
+//  Sos un puto
 #import <UIKit/UIKit.h>
 
 @interface MainTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>{
